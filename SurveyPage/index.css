@@ -1,0 +1,205 @@
+#forname
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+#foremail
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+#forage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+#forradio
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+body
+{
+	background: lightblue;
+	/*min-width: 360px;*/
+}
+#radio
+{
+	display: flex;
+	flex-direction: column;
+}
+#main
+{
+	border-radius: 2%;
+	background: white;
+	width: 70vw;
+	margin-left: 15vw;
+
+}
+#forselect
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+#forselect1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+
+#submitBtn
+{
+	margin-top: 4vh;
+	padding-bottom: 3vh;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button
+{
+	height: 5vh;
+	width: auto;
+	font-family: sans-serif;
+	background: blue;
+	color: white;
+	word-wrap: break-word;
+	min-width: 8vw;
+}
+
+button:hover
+{
+	transform: scale(1.1);
+	background: green;
+}
+
+#forcheck
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+
+#forarea
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: cyan;*/
+}
+
+	.left
+	{
+		width: 35vw;
+		margin-top: 3vh;
+		justify-content: flex-end;
+		text-align: right;
+		margin-right: 1vw;
+		flex-wrap: wrap;
+	}
+	.right
+	{
+		margin-top: 3vh;
+		margin-left: 1vw;
+		width: 35vw;
+		justify-content: flex-start;
+	}
+
+@media only screen and (max-width: 500px)
+{
+	#body
+	{
+		min-width: 300px;
+		overflow: scroll;
+	}
+	#forname
+	{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#foremail
+	{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#forage
+	{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#forselect
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	#forselect1
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	#forcheck
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	#forarea
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	#forradio
+	{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.left
+	{
+		width: 70vw;
+		text-align: center;
+		align-self: flex-start;
+		justify-content: flex-start;
+	}
+	.right
+	{
+		width: 70vw;
+		text-align: center;
+		justify-content: center;
+	}
+	#radio
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+}
+

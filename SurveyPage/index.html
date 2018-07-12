@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Survey Form
+	</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+	<div >
+		<h1 id="title" align="center">Survey Form</h1>
+	</div>
+	<div id="main">
+		<div >
+			<br>
+			<p id="description" align="center">
+				Let us know how we can improve freeCodeCamp
+			</p>
+		</div>
+		<div id="survey">
+			<form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+				<div id="forname">
+					<div class="left">
+						<label for="name" id="name-label"><small>*</small>Name</label>	
+					</div>
+					<div class="right">
+						<input type="text" placeholder="Enter your name" id="name" required pattern="[a-zA-Z]+( )+[a-zA-Z]*" title="Invalid Input">	
+					</div>
+				</div>
+				<div id="foremail">
+					<div class="left">
+						<label for="email" id="email-label">*Email</label>	
+					</div>
+					<div class="right">
+						<input type="email" placeholder="Enter your Email" id="email" required pattern="[a-zA-Z$_.0-9]+@[a-zA-Z]+.[a-zA-Z]">
+					</div>
+				</div>
+				<div id="forage">
+					<div class="left">
+						<label for="age" id="number-label">*Age</label>	
+					</div>
+					<div class="right">
+						<input type="number" placeholder="Age" id="number" required pattern="[0-9]+" min="0" max="100">	
+					</div>
+				</div>
+				<div id="forselect">
+					<div class="left">
+						<label>Which option best describes your current role?</label>	
+					</div>
+					<div class="right">
+						<select id="dropdown">
+						<option disabled>Select an Option</option>
+						<option selected>Student</option>
+						<option>Full time Job</option>
+						<option>Full time learner</option>
+						<option>Prefer not to say</option>
+						<option>Other</option>
+					</select>		
+					</div>
+				</div>
+				<div id="forradio">
+					<div class="left">
+						<label> How likely is that you would recommend freeCodeCamp to a friend?</label>	
+					</div>
+					<div class="right" id="radio">
+						<div>
+							<input type="radio" name="rec" value="Definitely" placeholder="Definitely">Definitely	
+						</div>
+						<div>
+						<input type="radio" name="rec" value="Maybe" placeholder="Maybe">Maybe
+						</div>
+						<div>
+						<input type="radio" name="rec" value="Not sure" placeholder="Not sure">Not sure		
+						</div>
+					</div>
+				</div>
+				<div id="forselect1">
+					<div class="left">
+						<label>What do you like most in FCC:</label>
+					</div>
+					<div class="right">
+						<select>
+							<option selected disabled>Select an option</option>
+							<option>Challenges</option>
+							<option>Projects</option>
+							<option>Community</option>
+							<option>Open Source</option>
+						</select>
+					</div>
+				</div>
+				<div id="forcheck">
+					<div class="left">
+						<label>Things that should be improved in the future
+(Check all that apply):</label>
+					</div>
+					<div class="right">
+						<div>
+							<input type="checkbox" name="prefer" value="1">Front-end Projects	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="2">Back-end Projects	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="3">Data Visualization	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="4">Challenges	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="5">Open Source Community	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="6">Gitter help rooms
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="7">Videos
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="8">City Meetups	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="9">Wiki	
+						</div>
+						<div>
+							<input type="checkbox" name="prefer" value="10">Form	
+						</div>
+					</div>
+				</div>
+				<div id="forarea">
+					<div class="left">
+						<label>Any Comments or Suggestions?</label>
+					</div>
+					<div class="right">
+						<textarea placeholder="Enter your comment here..." style="height: 10vh;width: auto;display: block;resize: vertical;"></textarea>
+					</div>
+				</div>
+				<div id="submitBtn">
+					<button type="submit" id="submit">Submit</button>
+				</div>
+			</form>
+			
+		</div>	
+	</div>
+	
+
+</body>
+</html>
